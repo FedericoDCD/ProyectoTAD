@@ -86,7 +86,7 @@
             this.BttnList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(199)))), ((int)(((byte)(192)))));
             this.BttnList.FlatAppearance.BorderSize = 0;
             this.BttnList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BttnList.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BttnList.Font = new System.Drawing.Font("Lucida Sans Typewriter", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BttnList.Location = new System.Drawing.Point(28, 196);
             this.BttnList.Name = "BttnList";
             this.BttnList.Size = new System.Drawing.Size(157, 35);
@@ -100,7 +100,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(199)))), ((int)(((byte)(192)))));
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Lucida Sans Typewriter", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(201, 196);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(157, 35);
@@ -112,7 +112,7 @@
             // TxtItem
             // 
             this.TxtItem.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TxtItem.Font = new System.Drawing.Font("Corbel", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtItem.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.TxtItem.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(199)))), ((int)(((byte)(192)))));
             this.TxtItem.HintText = "Dato";
@@ -135,6 +135,7 @@
             // 
             this.CmbItem.BackColor = System.Drawing.Color.Transparent;
             this.CmbItem.BorderRadius = 3;
+            this.CmbItem.Font = new System.Drawing.Font("Lucida Sans Typewriter", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmbItem.ForeColor = System.Drawing.Color.White;
             this.CmbItem.Items = new string[0];
             this.CmbItem.Location = new System.Drawing.Point(371, 154);
@@ -150,7 +151,7 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(199)))), ((int)(((byte)(192)))));
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(371, 196);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(157, 35);

@@ -88,7 +88,7 @@
             // TxtItem
             // 
             this.TxtItem.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TxtItem.Font = new System.Drawing.Font("Corbel", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtItem.Font = new System.Drawing.Font("Lucida Sans Typewriter", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.TxtItem.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(199)))), ((int)(((byte)(192)))));
             this.TxtItem.HintText = "Dato";
@@ -112,7 +112,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(199)))), ((int)(((byte)(192)))));
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Lucida Sans Typewriter", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(35, 264);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(157, 35);
@@ -126,7 +126,7 @@
             this.BttnList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(199)))), ((int)(((byte)(192)))));
             this.BttnList.FlatAppearance.BorderSize = 0;
             this.BttnList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BttnList.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BttnList.Font = new System.Drawing.Font("Lucida Sans Typewriter", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BttnList.Location = new System.Drawing.Point(35, 168);
             this.BttnList.Name = "BttnList";
             this.BttnList.Size = new System.Drawing.Size(157, 35);
@@ -145,44 +145,44 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(199)))), ((int)(((byte)(190)))));
-            this.label1.Location = new System.Drawing.Point(318, 85);
+            this.label1.Location = new System.Drawing.Point(329, 85);
             this.label1.MaximumSize = new System.Drawing.Size(500, 160);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 18);
+            this.label1.Size = new System.Drawing.Size(88, 18);
             this.label1.TabIndex = 11;
             this.label1.Text = "ENORDEN:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(199)))), ((int)(((byte)(190)))));
-            this.label2.Location = new System.Drawing.Point(570, 84);
+            this.label2.Location = new System.Drawing.Point(575, 84);
             this.label2.MaximumSize = new System.Drawing.Size(500, 160);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 18);
+            this.label2.Size = new System.Drawing.Size(98, 18);
             this.label2.TabIndex = 12;
             this.label2.Text = "PREORDEN:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(199)))), ((int)(((byte)(190)))));
             this.label3.Location = new System.Drawing.Point(824, 81);
             this.label3.MaximumSize = new System.Drawing.Size(500, 160);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 18);
+            this.label3.Size = new System.Drawing.Size(98, 18);
             this.label3.TabIndex = 13;
             this.label3.Text = "POSORDEN:";
             // 
             // LblEnOrden
             // 
             this.LblEnOrden.AutoSize = true;
-            this.LblEnOrden.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblEnOrden.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(199)))), ((int)(((byte)(190)))));
+            this.LblEnOrden.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblEnOrden.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(211)))), ((int)(((byte)(217)))));
             this.LblEnOrden.Location = new System.Drawing.Point(254, 121);
             this.LblEnOrden.MaximumSize = new System.Drawing.Size(230, 300);
             this.LblEnOrden.Name = "LblEnOrden";
@@ -204,8 +204,8 @@
             // LblPreOrden
             // 
             this.LblPreOrden.AutoSize = true;
-            this.LblPreOrden.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPreOrden.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(199)))), ((int)(((byte)(190)))));
+            this.LblPreOrden.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblPreOrden.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(211)))), ((int)(((byte)(217)))));
             this.LblPreOrden.Location = new System.Drawing.Point(503, 121);
             this.LblPreOrden.MaximumSize = new System.Drawing.Size(230, 300);
             this.LblPreOrden.Name = "LblPreOrden";
@@ -215,8 +215,8 @@
             // LblPosOrden
             // 
             this.LblPosOrden.AutoSize = true;
-            this.LblPosOrden.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPosOrden.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(199)))), ((int)(((byte)(190)))));
+            this.LblPosOrden.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblPosOrden.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(211)))), ((int)(((byte)(217)))));
             this.LblPosOrden.Location = new System.Drawing.Point(755, 121);
             this.LblPosOrden.MaximumSize = new System.Drawing.Size(230, 300);
             this.LblPosOrden.Name = "LblPosOrden";
@@ -307,7 +307,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmABB";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmABB";
+            this.Text = "y";
+            this.Load += new System.EventHandler(this.FrmABB_Load);
             this.PnlBar.ResumeLayout(false);
             this.PnlBar.PerformLayout();
             this.ResumeLayout(false);

@@ -62,11 +62,24 @@ namespace TAD
                 if (TxtItem.Text != "")
                 {//Si hay algo que ingresar lo ingreso
                     Item = int.Parse(TxtItem.Text);
-                    ObjTree.Insert(Item);//Inserto un item
-                    ThrdList.Start();
-                    TxtItem.Text = "";//Limpio el campo
-                    Items++;
-                    LblItems.Text = Items.ToString();
+                    ObjTree.FindItem(ObjTree.ReturnRoot(), Item);
+                    if (ObjTree.Empty)
+                    {//Si lo ingresado no se repite con ningún item lo ingreso
+                        ObjTree.Insert(Item);//Inserto un item
+                        ThrdList.Start();
+                        TxtItem.Text = "";//Limpio el campo
+                        Items++;
+                        LblItems.Text = Items.ToString();
+                        if (lblItemError.Visible)
+                        {//Si está visible algún error lo oculto
+                            lblItemError.Visible = false;
+                        }
+                    }
+                    else {//sino informo del error respecto a la inserción del item y seteo el Empty de objtree para futuros ingresos
+                        lblItemError.Text = "*ITEM YA INGRESADO";
+                        lblItemError.Visible = true;
+                        ObjTree.Empty = true;//Seteo el Empty
+                    }
                 }
                 else
                 {//Si no hay nada que ingresar lo digo
@@ -114,6 +127,11 @@ namespace TAD
                     // Set other properties & events here...
                 }
             }
+        }
+
+        private void FrmABB_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

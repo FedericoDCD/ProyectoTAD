@@ -78,7 +78,7 @@
             this.BttnList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(199)))), ((int)(((byte)(192)))));
             this.BttnList.FlatAppearance.BorderSize = 0;
             this.BttnList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BttnList.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BttnList.Font = new System.Drawing.Font("Lucida Sans Typewriter", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BttnList.Location = new System.Drawing.Point(141, 127);
             this.BttnList.Name = "BttnList";
             this.BttnList.Size = new System.Drawing.Size(157, 35);
@@ -92,7 +92,7 @@
             this.BttnTrees.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(199)))), ((int)(((byte)(192)))));
             this.BttnTrees.FlatAppearance.BorderSize = 0;
             this.BttnTrees.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BttnTrees.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BttnTrees.Font = new System.Drawing.Font("Lucida Sans Typewriter", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BttnTrees.Location = new System.Drawing.Point(141, 178);
             this.BttnTrees.Name = "BttnTrees";
             this.BttnTrees.Size = new System.Drawing.Size(157, 35);
@@ -104,11 +104,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(199)))), ((int)(((byte)(190)))));
-            this.label1.Location = new System.Drawing.Point(80, 78);
+            this.label1.Location = new System.Drawing.Point(90, 77);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(293, 18);
+            this.label1.Size = new System.Drawing.Size(271, 18);
             this.label1.TabIndex = 2;
             this.label1.Text = "¿CON QUE TAD DESEA TRABAJAR?";
             this.label1.Click += new System.EventHandler(this.label1_Click);

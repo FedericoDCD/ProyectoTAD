@@ -12,6 +12,7 @@ namespace TAD
         private String inorder;
         private String preorder;
         private String postorder;
+        private bool empty = true; //Define si un item está repetido o no
         public Tree()
         {//Inicializa la raíz como nula
             root = null;
@@ -20,6 +21,7 @@ namespace TAD
         public String InOrder { get => inorder; set => inorder = value; }
         public String PreOrder { get => preorder; set => preorder = value; }
         public String PostOrder { get => postorder; set => postorder = value; }
+        public bool Empty { get => empty; set => empty = value; }
         //MÉTODOS
         public Node ReturnRoot()
         {//Retorna la raíz
@@ -68,7 +70,7 @@ namespace TAD
         {//Mostrar árbol en Preorder
             if (Root != null)
             {
-                preorder += Root.Item + ", ";
+                preorder += Root.Item + " - ";
                 Preorder(Root.Left);
                 Preorder(Root.Right);
             }
@@ -78,7 +80,7 @@ namespace TAD
             if (Root != null)
             {
                 Inorder(Root.Left);
-                inorder += Root.Item + ", ";
+                inorder += Root.Item + " - ";
                 Inorder(Root.Right);
             }
         }
@@ -88,8 +90,21 @@ namespace TAD
             {
                 Postorder(Root.Left);
                 Postorder(Root.Right);
-                postorder += Root.Item + ", ";
+                postorder += Root.Item + " - ";
             }
         }
+        public void FindItem(Node Root, int Item)
+        {//Si existe el item retorno true
+            if (Root != null)
+            {
+                FindItem(Root.Left, Item);
+                FindItem(Root.Right, Item);
+                if (Root.Item == Item)
+                {
+                    empty = false;
+                }
+            }
+        }
+
     }
 }
